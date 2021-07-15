@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Facebook</title>
+</head>
+
+<body>
+    <section>
+        <div id="text">
+            <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="" width="350">
+            <h2>O Facebook ajuda você a se conectar e <br> compartilhar com as pessoas que <br> fazem parte da sua vida.
+            </h2>
+        </div>
+    </section>
+    <section id="bloco">
+        <form id="form">
+            <input type="email" id="email" placeholder="Email ou telefone">
+            <input type="password" id="password" placeholder="Senha">
+            <button class="entrar" onclick="entrar()">Entrar</button>
+            <a class="senha" onclick="esqueceu()">Esqueceu a senha?</a>
+            <hr>
+            <button class="criar" onclick="criada()"><b>Criar nova conta</b></button>
+        </form>
+        <p class="criarPag" onclick="criarpag()"><a href="">Criar uma Página</a> para uma celebridade, banda ou empresa.
+        </p>
+    </section>
+    <script>
+        function entrar() {
+            alert("Come on my Broda");
+            document.getElementById("email").clear();
+            document.getElementById("password").clear();
+        }
+        function criada() {
+            alert("Parabéns, conta criada");
+        }
+        function esqueceu() {
+            alert("Poxa vida em meu consagrado, ai complicou");
+        }
+        function criarpag() {
+            alert("show 10 amigão, parabéns pela iniciativa!");
+        }
+    </script>
+</body>
+
+</html>
